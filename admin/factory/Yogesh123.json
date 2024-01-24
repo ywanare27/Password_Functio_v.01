@@ -1,0 +1,9 @@
+{
+	"name": "Yogesh123",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2fc4886b-60b7-4319-af84-03b01b42ad44",
+		"tenantId": "a08ab69f-bc47-4963-a5d0-3d11faacc156"
+	}
+}
