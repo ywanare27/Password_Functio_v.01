@@ -1,5 +1,10 @@
 {
 	"name": "Yogesh123",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true"
+		}
+	},
 	"location": "centralindia",
 	"identity": {
 		"type": "SystemAssigned",
