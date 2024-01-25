@@ -1,0 +1,76 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "customers.csv",
+				"container": "demo"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "'custno'",
+				"type": "String"
+			},
+			{
+				"name": "'firstname'",
+				"type": "String"
+			},
+			{
+				"name": "'lastname'",
+				"type": "String"
+			},
+			{
+				"name": "'gender'",
+				"type": "String"
+			},
+			{
+				"name": "'age'",
+				"type": "String"
+			},
+			{
+				"name": "'profession'",
+				"type": "String"
+			},
+			{
+				"name": "'contactNo'",
+				"type": "String"
+			},
+			{
+				"name": "'emailId'",
+				"type": "String"
+			},
+			{
+				"name": "'city'",
+				"type": "String"
+			},
+			{
+				"name": "'state'",
+				"type": "String"
+			},
+			{
+				"name": "'isActive'",
+				"type": "String"
+			},
+			{
+				"name": "'createdDate'",
+				"type": "String"
+			},
+			{
+				"name": "'UpdatedDate'",
+				"type": "String"
+			}
+		]
+	}
+}
